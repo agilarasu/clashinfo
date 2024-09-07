@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="clashinfo",
-    version="0.1.0",
+    version="0.1.1",
     description="A Python wrapper for the Clash of Clans and Clash Royale API",
     author="Agilarasu Saravanan",
     author_email="s.agilarasu@outlook.com",
