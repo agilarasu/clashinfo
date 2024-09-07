@@ -1,6 +1,12 @@
-# ClashInfo Package
+# ClashInfo
 
-This package provides an interface to interact with the Clash of Clans (COC) API and Clash Royale (CR) API.
+ClashInfo is a Python wrapper for the Clash of Clans and Clash Royale APIs, allowing you to easily interact with the games' data.
+
+## Installation
+
+```bash
+pip install clashinfo
+```
 
 ## Modules
 
