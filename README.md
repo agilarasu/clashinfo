@@ -30,8 +30,8 @@ coc.set_api_key("your_api_key_here")
 You can retrieve information about a specific player using their player tag:
 
 ```python
-player_info = coc.get_player_info("#player_tag_here")
-print(player_info)
+player = coc.get_player_info("#player_tag_here")
+print(player)
 ```
 
 ### Getting Clan Information
@@ -39,8 +39,8 @@ print(player_info)
 To get information about a specific clan, use the clan tag:
 
 ```python
-clan_info = coc.get_clan_info("#clan_tag_here")
-print(clan_info)
+clan = coc.get_clan_info("#clan_tag_here")
+print(clan)
 ```
 
 ### Player Methods
@@ -64,6 +64,6 @@ The `Player` class provides several methods to get detailed information:
 Example:
 
 ```python
-player = coc.get_player_info("#player_tag_here")
+player = coc.get_player_info("#player_tag")
 print(player.achievements_info(completed=True))
 ```
